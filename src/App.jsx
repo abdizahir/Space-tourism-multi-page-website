@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 
 import Home from "./pages/destinations/Home";
 import Moon from "./pages/destinations/Moon";
-import Destinations from "./pages/destinations/destinations";
+import Destinations from "./pages/destinations/Destinations";
 import Mars from "./pages/destinations/Mars";
 import Europa from "./pages/destinations/Europa";
 import Titan from "./pages/destinations/Titan";
