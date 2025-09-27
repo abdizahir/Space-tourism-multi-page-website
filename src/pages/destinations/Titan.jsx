@@ -14,7 +14,7 @@ function Titan() {
             <section className='m-6 md:mt-20 text-center md:flex md:justify-between md:items-center md:gap-12'>
                 <section className="md:w-1/2">
                     <article className="flex items-center justify-center mb-8 sm:my-12">
-                            <img src={da.images.png} alt="" className="w-[150px] h-[150px] sm:h-[300px] sm:w-[300px] md:w-[480px] md:h-[480px] object-contain" />
+                            <img src={da.images.png} alt="" className="rotate w-[150px] h-[150px] sm:h-[300px] sm:w-[300px] md:w-[480px] md:h-[480px] object-contain" />
                     </article>
                 </section>
                 <section className="flex flex-col justify-center md:w-1/2 md:text-left">

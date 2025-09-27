@@ -1,12 +1,46 @@
-# React + Vite
+# React + Vite Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Space tourism multi-page website
 
-Currently, two official plugins are available:
+This is a modern, responsive web experience designed to showcase the future of space travel. Inspired by cutting-edge design and built with clean, reusable code, the website allows users to explore:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🪐 Destinations – Discover planets and moons you can visit.
 
-## Expanding the ESLint configuration
+👨‍🚀 Crew – Meet the people who make space travel possible.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Technology – Learn about the spacecrafts and innovations behind the mission.
+
+Every part of this project is sample code which shows how to do the following:
+
+* View each page and be able to toggle between the tabs to see new information
+* View the optimal layout for each of the website's pages depending on their device's screen size
+* See hover states for all interactive elements on the page
+
+
+## 📸 Screenshots
+
+### Main Interface
+![Desk Screenshot](./screenshots/Desktop.png)
+
+
+### 🚀 How to install the project and run it
+1. Clone the repository
+2. Navigate to the project folder - cd your-repo-name
+3. Install dependencies - npm install
+4. Start the development server - npm run dev 
+
+## 🔗 Links
+- Solution URL (GitHub Repository): [Link]()  
+- Live Site URL (Deployed App): [Link](https://github.com/abdizahir/Space-tourism-multi-page-website.git)
+
+## 🛠️ Built With
+- React – JS library
+- Vite
+- HTML5 & CSS3
+- Tailwind
+- JavaScript (ES6+)
+- React Router
+
+## Author
+**Abdallah Mohammed**  
+- GitHub: [github.com/your-username](https://github.com/abdizahir)   
