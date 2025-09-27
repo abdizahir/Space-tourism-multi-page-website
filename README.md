@@ -30,8 +30,8 @@ Every part of this project is sample code which shows how to do the following:
 4. Start the development server - npm run dev 
 
 ## 🔗 Links
-- Solution URL (GitHub Repository): [Link]()  
-- Live Site URL (Deployed App): [Link](https://github.com/abdizahir/Space-tourism-multi-page-website.git)
+- Solution URL (GitHub Repository): [Link](https://github.com/abdizahir/Space-tourism-multi-page-website.git)
+- Live Site URL (Deployed App): [Link](https://space-tourism-multi-page-website-a7.vercel.app/) 
 
 ## 🛠️ Built With
 - React – JS library
