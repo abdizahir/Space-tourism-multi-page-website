@@ -1,1 +1,67 @@
 @import "tailwindcss";
+
+@theme {
+    --color-white: #ffffff;
+    --color-blue-300: #D0D6F9;
+    --color-blue-900: #0B0D17;
+
+    --text-preset-1: 144px;
+    --text-preset-2: 100px;
+    --text-preset-3: 80px;
+    --text-preset-4: 56px;
+    --text-preset-5: 32px;
+    --text-preset-6: 28px;
+    --text-preset-7: 18px;
+    --text-preset-8: 17px;
+    --text-preset-9: 15px;
+    --text-preset-10: 24px;
+    --text-preset-11: 0px;
+}
+
+body {
+    font-family: "Bellefair", serif;
+}
+
+#grow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  background: #ffffff;
+  opacity: 0.1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 1s ease-in-out, opacity 15s ease-in-out;
+  pointer-events: none; 
+}
+
+#explore-btn:hover #grow {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 0.1;
+}
+
+.modal {
+  background: rgba(11, 13, 23, 0.15); 
+  backdrop-filter: blur(20px);   
+}
+
+
+
+
+.navbar {
+  background: rgba(70, 80, 128, 0.1); 
+  backdrop-filter: blur(90px);
+}
+@media (min-width: 640px) and (max-width: 768px) {
+  .navbar {
+  background: rgba(158, 162, 180, 0.1); 
+  backdrop-filter: blur(90px);
+}
+}
+
+@media (min-width: 1040px) {
+  .only-md {
+    display: block;
+  }
+}
