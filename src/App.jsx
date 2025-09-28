@@ -55,7 +55,7 @@ const router = createBrowserRouter([
 function App() {
   
   return (
-    <main className="w-full h-[880px] sm:h-[1024px] overflow-hidden ">
+    <main className="w-full big-screens h-[880px] sm:h-[1024px] overflow-hidden ">
       <RouterProvider router={router} />
     </main>
   );
