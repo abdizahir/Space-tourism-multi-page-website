@@ -16,12 +16,12 @@ function Header() {
         setIsOverLay(false)
     }
 
-    let mobileBar = <span className="absolute -right-8  top-0 h-[19px] w-5  bg-white"></span>;
+    let mobileBar = <span className="absolute -right-4  top-0 h-[19px] w-[4px]  bg-white"></span>;
     let deskBar = <span className="absolute left-0 -bottom-6 h-[2px] w-full bg-white"></span>;
 
     return(
-        <>
-        <nav className='w-full h-22 p-6 sm:pl-8 sm:pr-0 sm:py-0 md:p-6 flex items-center sm:gap-8 justify-between'>
+        <section className='relative'>
+        <nav className='w-full h-22 p-6 sm:pl-8 sm:pr-0 sm:py-0 md:pt-2 flex items-center sm:gap-8 justify-between'>
             <NavLink to="/">
                 <img src={logo} alt="logo-image" className='w-10 h-10' />
             </NavLink>
@@ -91,7 +91,7 @@ function Header() {
             </ul>
         </nav>
         {isOverLay && (<Modal>
-            <section className='flex flex-col gap-12'>
+            <section className='flex flex-col gap-12 max-h-[1000px] h-auto'>
                 <button className='flex justify-end cursor-pointer ' onClick={handleStopOverlay}>
                     <img src={close} alt="close-btn" className='my-4' />
                 </button>
@@ -155,7 +155,7 @@ function Header() {
                 </ul>
             </section>
         </Modal>)}
-        </>
+        </section>
     );
 }
 

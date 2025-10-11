@@ -26,8 +26,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   background: #ffffff;
   opacity: 0.1;
   border-radius: 50%;
@@ -68,7 +68,7 @@ body {
 
 .rotate { 
       animation: rotation 151s infinite linear;
-      transform-origin: center;  /*(vertical center) / (image height) * 100 = (percentage)*/
+      transform-origin: center; 
     }
     @keyframes rotation {
       from { transform: rotate(0deg); }
